@@ -292,7 +292,7 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
 
                    1) Automatically(x2) installation :
 
-                      bash <(wget -qO- https://lockdoor.sofianehamlaoui.me/lock.html)
+                      bash <(wget -qO- https://git.io/JUBlZ)
 
                    2) Automatically(x1) installation :
 
