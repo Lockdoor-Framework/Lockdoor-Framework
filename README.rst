@@ -2,23 +2,19 @@
 
    <h1 align="center">
 
-.. image:: ./pictures/logos/logo205x250.gif
+.. image:: https://up.sofianehamlaoui.me/lockdoor/logos/logo205x250.gif
 
 .. raw:: html
 
    <br class="title">
    Lockdoor Pentesting Framework <br>
-   </h1><h2>
-   [~] Tested on Kali,Ubuntu,Arch,Fedora,Opensuse and Windows (Cygwin) [~]
-   </h2>
-   <h1 align="center">
-   !NEWS!</h1>
+   </h1><h3 align="center">
+   [~] Works perfectly on Kali,Ubuntu,Arch,Fedora,Opensuse and Windows [~]
+   </h3>
+   <h2 align="center">
+   !NEWS!</h2>
    <h3 align="center">
-   [~] Version 1.8 IS OUT !!<br>
-   <br> 1.8 POSTED 22/10/2019 10:26AM GMT+2 <br>
-   <br> 62 starts on 24hours <br>
-   <br> Bugs Fixing for 7 tools <br>
-   <br> fixing (apt) package manager problems <br>
+   Version v2.2.4 IS OUT !! <br>
    </h3>
 
 .. |code-quality| image:: https://api.codacy.com/project/badge/Grade/a5ccede5f91247ab91b14eb97309b74b
@@ -26,9 +22,6 @@
 
 .. |forthebadge made-with-python| image:: http://ForTheBadge.com/images/badges/made-with-python.svg
    :target: https://www.python.org/
-
-.. |made-with-bash| image:: https://img.shields.io/badge/Made%20with-Bash-1f425f.svg
-   :target: https://www.gnu.org/software/bash/
 
 .. |GitHub release| image:: https://badgen.net/github/release/SofianeHamlaoui/Lockdoor-Framework
    :target: https://GitHub.com/SofianeHamlaoui/Lockdoor-Framework/releases/
@@ -38,18 +31,74 @@
 .. |License| image:: https://badgen.net/pypi/license/lockdoor
 .. |Pypi| image:: https://badgen.net/pypi/v/lockdoor
    :target: https://pypi.org/project/lockdoor/
-.. |Lines| image:: https://badgen.net/codeclimate/loc/SofianeHamlaoui/Lockdoor-Framework
 .. |Twitter| image:: https://badgen.net/twitter/follow/S0fianeHamlaoui
    :target: https://twitter.com/S0fianeHamlaoui
 .. |built-with-love| image:: http://ForTheBadge.com/images/badges/built-with-love.svg
    :target: https://GitHub.com/SofianeHamlaoui/
-.. |Tested-on| image:: https://img.shields.io/badge/Tested%20on-Linux%2COSX%20and%20Windows-blue
+.. |Tested-on| image:: https://img.shields.io/badge/Tested%20on%20%20-Linux%20%26%20Windows-blue
    :target: https://GitHub.com/SofianeHamlaoui/Lockdoor-Framework
-
-
 .. contents::
     :local:
     :depth: 3
+
+=============
+Badges 📌 :
+=============
+
+|forthebadge made-with-python| |built-with-love|
+
+|code-quality| |Pypi| |GitHub release| |Tested-on| |Last commit| |License| |Twitter|
+
+=============
+Support me 💰 :
+=============
+   - On Paypal : https://www.paypal.com/paypalme2/SofianeHamlaoui
+   - BTC Addresse : 1NR2oqsuevvWJwzCyhBXmqEA5eYAaSoJFk
+
+=============
+Versions :closed_lock_with_key: :
+=============
+
+08/2020 : 2.2.4
+--------------------------
+- Config file checking.
+- Updating the tools.
+- Showing the current version of Lockdoor by -v arg.
+- checking the version and asking for possible update.
+- Making it easier to customize.
+- No added tools for the moment.
+- Fixing the docker misconfiguration, the docker version now works perfectly.
+
+    - Information Gathring Tools (21)
+    - Web Hacking Tools(15)
+    - Reverse Engineering Tools (15)
+    - Exploitation Tools (6)
+    - Pentesting & Security Assessment Findings Report Templates (6)
+    - Password Attack Tools (4)
+    - Shell Tools + Blackarch's Webshells Collection (4)
+    - Walk Throughs & Pentest Processing Helpers (3)
+    - Encryption/Decryption Tools (2)
+    - Social Engineering tools (1)
+    - All you need as Privilege Escalation scripts and exploits
+
+03/2020 : 2.2.3
+--------------------------
+   - Information Gathring Tools (21)
+   - Web Hacking Tools(15)
+   - Reverse Engineering Tools (15)
+   - Exploitation Tools (6)
+   - Pentesting & Security Assessment Findings Report Templates (6)
+   - Password Attack Tools (4)
+   - Shell Tools + Blackarch's Webshells Collection (4)
+   - Walk Throughs & Pentest Processing Helpers (3)
+   - Encryption/Decryption Tools (2)
+   - Social Engineering tools (1)
+   - All you need as Privilege Escalation scripts and exploits
+   - Working on Kali,Ubuntu,Arch,Fedora,Opensuse and Windows (Cygwin)
+
+.. image:: https://img.youtube.com/vi/_agvb29FQrs/maxresdefault.jpg
+   :target: https://www.youtube.com/watch?v=_agvb29FQrs
+
 
 =============
 Blogs & Articles 📰 :
@@ -78,61 +127,8 @@ Blogs & Articles 📰 :
                         * Root Developers : https://www.facebook.com/root.deve/posts/1181412315364265
                         * More : https://www.facebook.com/search/top/?q=Lockdoor%20Framework
             * Youtube :
-                  * https://www.youtube.com/watch?v=_agvb29FQrs
-=============
-Support me 💰 :
-=============
-   - On Paypal : https://www.paypal.com/paypalme2/SofianeHamlaoui
-   - BTC Addresse : 1NR2oqsuevvWJwzCyhBXmqEA5eYAaSoJFk
-=============
-Badges 📌 :
-=============
-
-|forthebadge made-with-python| |built-with-love|
-
-|made-with-bash| |code-quality| |Pypi| |GitHub release| |Tested-on| |Last commit| |License| |Lines| |Twitter|
-
-=============
-Versions :closed_lock_with_key: :
-=============
-**WARNING: Project is still in version 1.0 BETA. It is still under active development
-and bugs might be present.**
-
-09/2019 : 1.0Beta
---------------------------
-   - Information Gathring Tools (21)
-   - Web Hacking Tools(15)
-   - Reverse Engineering Tools (15)
-   - Exploitation Tools (6)
-   - Pentesting & Security Assessment Findings Report Templates (6)
-   - Password Attack Tools (4)
-   - Shell Tools + Blackarch's Webshells Collection (4)
-   - Walk Throughs & Pentest Processing Helpers (3)
-   - Encryption/Decryption Tools (2)
-   - Social Engineering tools (1)
-   - All you need as Privilege Escalation scripts and exploits
-   - Working on Kali,Ubuntu,Arch,Fedora,Opensuse and Windows (Cygwin)
-
-.. image:: https://img.youtube.com/vi/_agvb29FQrs/maxresdefault.jpg
-   :target: https://www.youtube.com/watch?v=_agvb29FQrs
-
-09/2019 : 0.6
---------------------------
-   - Information Gathring tools (13)
-   - Web Hacking Tools (9)
-   - Working on Kali,Ubuntu,Arch,Fedora,Opensuse and Windows (Cygwin)
-   - Some bugs That I'm fixing with time so don't worry about that.
-
-.. image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/gifs/kali.gif
-
-=============
-Check the Wiki Pages to know more about the tool. 📙 :
-=============
-- The Wiki pages :
-
-   - `Lockdoor Wiki page Home  <https://github.com/SofianeHamlaoui/Lockdoor-Framework/wiki>`_
-   - `Lockdoor Demos  <https://github.com/SofianeHamlaoui/Lockdoor-Framework/wiki/Demos>`_
-   - `Lockdoor Screenshots <https://github.com/SofianeHamlaoui/Lockdoor-Framework/wiki/Screenshots>`_
+                  * My youtube video : https://www.youtube.com/watch?v=_agvb29FQrs
+                  * The Shadow Brokers video : https://www.youtube.com/watch?v=6njKRrKQtow
 
 =============
 Overview 📙 :
@@ -171,57 +167,59 @@ Resources and cheatsheets 📙 : (Added value)
 Screenshots 💻 :
 =============
 
-.. |1st| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/1.png
+.. |1st| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/installation-dir-1.png
 
-.. |lockup| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/2.png
+.. |lockup| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/verbosemode.png
 
-.. |root| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/3.png
+.. |root| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/RootMenu.png
 
-.. |infogath| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/4.png
+.. |infogath| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/infogath.png
 
-.. |web| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/5.png
+.. |web| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/webhack.png
 
-.. |expl| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/6.png
+.. |expl| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/exploitation.png
 
-.. |Revers| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/7.png
+.. |Revers| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/reverseeng.png
 
-.. |Enc| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/8.png
+.. |Enc| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/encdec.png
 
-.. |passwd| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/9.png
+.. |passwd| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/passattack.png
 
-.. |shells| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/10.png
+.. |shells| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/shells.png
 
-.. |Privesc| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/11.png
+.. |Privesc| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/privesc.png
 
-.. |SE| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/12.png
+.. |SE| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/socialengin.png
 
-.. |psafrt| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/13.png
+.. |psafrt| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/reporttemplates.png
 
-.. |help| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/14.png
+.. |help| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/walkth.png
 
-.. |about| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/screenshots/15.png
+.. |update| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/update.png
 
-+------------+-----------------+-----------+-----------------------+-------------+--------------+---------------------+---------+------------------+----------+-----------+--------------------+----------+--------------+---------+
-| First Step | Lockdoor update | ROOT Menu | Information Gathering | Web Hacking | Exploitation | Reverse Engineering | Enc/Dec | Password Attacks | Shells   | PrivEsc   | Social Engineering | PSAFRT   | Walkthroughs | About   |
-+============+=================+===========+=======================+=============+==============+=====================+=========+==================+==========+===========+====================+==========+==============+=========+
-| |1st|      | |lockup|        | |root|    | |infogath|            | |web|       | |expl|       | |Revers|            | |Enc|   | |passwd|         | |shells| | |Privesc| | |SE|               | |psafrt| | |help|       | |about| |
-+------------+-----------------+-----------+-----------------------+-------------+--------------+---------------------+---------+------------------+----------+-----------+--------------------+----------+--------------+---------+
+.. |about| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/about.png
+
++------------+--------------+-----------+-----------------------+-------------+--------------+---------------------+---------+------------------+----------+-----------+--------------------+----------+--------------+-----------------+---------+
+| First Step | Verbose mode | R00T menu | Information Gathering | Web Hacking | Exploitation | Reverse Engineering | Enc/Dec | Password Attacks | Shells   | PrivEsc   | Social Engineering | PSAFRT   | Walkthroughs | Update Lockdoor | About   |
++------------+--------------+-----------+-----------------------+-------------+--------------+---------------------+---------+------------------+----------+-----------+--------------------+----------+--------------+-----------------+---------+
+| |1st|      | |lockup|     | |root|    | |infogath|            | |web|       | |expl|       | |Revers|            | |Enc|   | |passwd|         | |shells| | |Privesc| | |SE|               | |psafrt| | |help|       | |update|        | |about| |
++------------+--------------+-----------+-----------------------+-------------+--------------+---------------------+---------+------------------+----------+-----------+--------------------+----------+--------------+-----------------+---------+
 
 ============
 Demos 💻 :
 ============
 
-.. |Kali| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/gifs/kali.gif
+.. |Kali| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/kali.gif
 
-.. |Ubuntu| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/gifs/ubuntu.gif
+.. |Ubuntu| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/ubuntu.gif
 
-.. |Arch Linux| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/gifs/archlinux.gif
+.. |Arch Linux| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/archlinux.gif
 
-.. |Fedora| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/gifs/fedora.gif
+.. |Fedora| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/fedora.gif
 
-.. |Opensuse| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/gifs/opensuse.gif
+.. |Opensuse| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/opensuse.gif
 
-.. |Windows1| image:: https://raw.githubusercontent.com/SofianeHamlaoui/Lockdoor-Framework/master/pictures/gifs/windows.gif
+.. |Windows1| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/windows.gif
 
 +------------+----------+--------------+----------+------------+-------------------+
 | Kali Linux | Ubuntu   | Arch Linux   | Fedora   | Opensuse   | Windows (Cygwin)  |
@@ -237,13 +235,70 @@ Demos 💻 :
 Installation 🛠️ :
 =============
 
+**The recommended way to use Lockdoor is by pulling the Docker Image so you will not have
+to worry about dependencies issues.**
+
+**A Docker image is available on Docker Hub and automatically re-built at each update:
+https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the official debian docker image (debian).**
+
+- Docker Installation
+
+      - Installing requirments
+
+            .. code-block:: console
+
+                     sudo apt install docker < Debian-based distributions
+                     sudo dnf install docker < RPM-based distributions
+                     sudo pacman -S docker < Arch-based distributions
+                     sudo zypper install docker < OS-based distributions
+                     sudo yum install docker < RH-based distributions
+
+      - Using lockdoor's docker version
+
+                  1. *Pull lockdoor Docker Image:*
+
+                              .. code-block:: console
+
+                                       sudo docker pull sofianehamlaoui/lockdoor
+
+                  2. *Run fresh Docker container:*
+
+                              .. code-block:: console
+
+                                       sudo docker run -it --name lockdoor-container -w /Lockdoor-Framework --net=host sofianehamlaoui/lockdoor
+
+                  3. *Run Lockdoor Framework*
+
+                              .. code-block:: console
+
+                                       lockdoor
+
+                  4. *To re-run a stopped container:*
+
+                              .. code-block:: console
+
+                                       sudo docker start -i sofianehamlaoui/lockdoor
+
+
+                  5. *To open multiple shells inside the container:*
+
+                              .. code-block:: console
+
+                                       sudo docker exec -it lockdoor-container bash
+
 - Automatically
 
          .. code-block:: console
 
-                  git clone https://github.com/SofianeHamlaoui/Lockdoor-Framework.git && cd Lockdoor-Framework
-                  chmod +x ./install.sh
-                  ./install.sh
+                   1) Automatically(x2) installation :
+
+                      bash <(wget -qO- https://lockdoor.sofianehamlaoui.me/lock.html)
+
+                   2) Automatically(x1) installation :
+
+                      git clone https://github.com/SofianeHamlaoui/Lockdoor-Framework.git && cd Lockdoor-Framework
+                      chmod +x ./install.sh
+                      ./install.sh
 
 - Manually
 
@@ -278,8 +333,6 @@ Installation 🛠️ :
                   # Installing Lockdoor from PyPi
                   pip3 install lockdoor
 
-- Docker Installation
-      COMING SOON
 
 =============
 Lockdoor Tools contents 🛠️ :
@@ -426,7 +479,7 @@ Lockdoor Resources contents 📚 :
 
 **Crypto** 🛡️:
 --------------------------
-   - `Crypto101.pdf <ToolsResources/ENCRYPTION/Crypto101.pdf>`_
+   - `Crypto101.pdf <ToolsResources/ENCRYPTION/CHEATSHEETS/Crypto101.pdf>`_
 
 **Exploitation** ❗:
 --------------------------
@@ -438,7 +491,7 @@ Lockdoor Resources contents 📚 :
    - `network_pivoting_techniques <ToolsResources/EXPLOITATION/CHEATSHEETS/network_pivoting_techniques.md>`_
    - `pivoting <ToolsResources/EXPLOITATION/CHEATSHEETS/pivoting.md>`_
    - `pivoting_ <ToolsResources/EXPLOITATION/CHEATSHEETS/pivoting_.md>`_
-   - `Public Exploits <ToolsResources/EXPLOITATION/CHEATSHEETS/Public Exploits.md>`_
+   - `Public Exploits <ToolsResources/EXPLOITATION/CHEATSHEETS/Public%20Exploits.md>`_
    - `reverse_shell_with_msfvenom <ToolsResources/EXPLOITATION/CHEATSHEETS/reverse_shell_with_msfvenom.md>`_
 
 **Networking** 🖧 :
@@ -446,7 +499,7 @@ Lockdoor Resources contents 📚 :
    - `bpf_syntax <ToolsResources/NETWORKING/bpf_syntax.md>`_
    - `Cheatsheet_Networking <ToolsResources/NETWORKING/Cheatsheet_Networking.txt>`_
    - `Cheatsheet_Oracle <ToolsResources/NETWORKING/Cheatsheet_Oracle.txt>`_
-   - `networking_concept <ToolsResources/NETWORKING/networking_concept>`_
+   - `networking_concept <ToolsResources/NETWORKING/networking_concept.md>`_
    - `nmap_quick_reference_guide <ToolsResources/NETWORKING/nmap_quick_reference_guide.pdf>`_
    - `tcpdump <ToolsResources/NETWORKING/tcpdump.pdf>`_
 
@@ -460,7 +513,6 @@ Lockdoor Resources contents 📚 :
    - `Cheatsheet_AVBypass <ToolsResources/POST-EXPL/CHEATSHEETS/Cheatsheet_AVBypass.txt>`_
    - `Cheatsheet_BuildReviews <ToolsResources/POST-EXPL/CHEATSHEETS/Cheatsheet_BuildReviews.txt>`_
    - `code-execution-reverse-shell-commands <ToolsResources/POST-EXPL/CHEATSHEETS/code-execution-reverse-shell-commands.txt>`_
-   - `important-linux-serv-files <ToolsResources/POST-EXPL/CHEATSHEETS/important-linux-serv-files.txt>`_
 
 **Privilege Escalation** ⚠️:
 --------------------------
@@ -472,7 +524,7 @@ Lockdoor Resources contents 📚 :
 
 **Pentesting & Security Assessment Findings Report Templates** 📝 :
 --------------------------
-   - `Demo Company - Security Assessment Findings Report.docx <ToolsResources/REPORT/TEMPLATES/Demo Company - Security Assessment Findings Report.docx>`_
+   - `Demo Company - Security Assessment Findings Report.docx <ToolsResources/REPORT/TEMPLATES/Demo-Company-Security-Asses-Findings-Report.docx>`_
    - `linux-template.md <ToolsResources/REPORT/TEMPLATES/linux-template.md>`_
    - `PWKv1-REPORT.doc <ToolsResources/REPORT/TEMPLATES/PWKv1-REPORT.doc>`_
    - `pwkv1_report.doc <ToolsResources/REPORT/TEMPLATES/pwkv1_report.doc>`_
@@ -481,6 +533,7 @@ Lockdoor Resources contents 📚 :
    - `OSCP-OS-XXXXX-Lab-Report_Template3.2.docx <ToolsResources/REPORT/TEMPLATES/OSCP-OS-XXXXX-Lab-Report_Template3.2.docx>`_
    - `OSCP-OS-XXXXX-Exam-Report_Template3.2.docx <ToolsResources/REPORT/TEMPLATES/OSCP-OS-XXXXX-Exam-Report_Template3.2.docx>`_
    - `CherryTree_template.ctb <ToolsResources/REPORT/TEMPLATES/CherryTree_template.ctb>`_
+   - `eventory-sample-pentest-report.pdf <ToolsResources/REPORT/TEMPLATES/eventory-sample-pentest-report.pdf>`_
 **Reverse Engineering** ⚡ :
 --------------------------
    - `Buffer_Overflow_Exploit <ToolsResources/REVERSE/CHEATSHEETS/Buffer_Overflow_Exploit.md>`_
@@ -537,7 +590,7 @@ Lockdoor Resources contents 📚 :
 
    - `Google Hacking DataBase <ToolsResources/GHDB.pdf>`_
 
-   - `Google Fu  <ToolsResources/Google FU.pdf>`_
+   - `Google Fu  <ToolsResources/GoogleFu.pdf>`_
 **Contributing** ℹ️ :
 -----------------------
    1. Fork it ( https://github.com/SofianeHamlaoui/Lockdoor-Framework/fork )

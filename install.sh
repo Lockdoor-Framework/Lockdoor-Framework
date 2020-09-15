@@ -1,7 +1,6 @@
 #!/bin/bash
 #Let's Begin ::
 # Colors
-
 b='\033[1m'
 u='\033[4m'
 bl='\E[30m'
@@ -14,7 +13,18 @@ c='\E[36m'
 w='\E[37m'
 endc='\E[0m'
 enda='\033[0m'
-
+trap ctrl_c INT
+function ctrl_c() {
+    echo ""
+    echo -e "                   ${r} Do you want to leave installation ?${endc}"
+    read -p "                                (Y/N) :  "   yn
+    case $yn in
+        [Yy]* ) exit;;
+        [Nn]* ) install;;
+        * ) install;;
+    esac
+    echo ""
+}
 function showlogo {
     clear
 echo """
@@ -25,7 +35,7 @@ echo """
 |    |__(  <_> )  \___|    <  / __ \|  |_|  |_\  ___/|  | \/
 |_______ \____/ \___  >__|_ \(____  /____/____/\___  >__|
         \/          \/     \/     \/               \/
-        Sofiane Hamlaoui | 2019
+        Sofiane Hamlaoui | 2020
 """;
     echo
 }
@@ -50,7 +60,7 @@ function chkapt {
     if [ "$?" -eq "0" ]; then
         echo -e "   ${g} [-] Installing the Packages${endc}"
         echo ""
-        apt install python python-pip python3 python3-requests python3-pip gcc ruby php git wget bc curl netcat subversion openjdk-11-jre make automake gcc gzip rsync
+        apt-get install -y python python-pip python3 python3-requests python3-pip gcc ruby php git wget bc curl netcat subversion openjdk-11-jre make automake gcc gzip rsync wget
         gem install bundler:1.17.2
     else
         echo -e "   ${g} [-] Skipping apt${endc}"
@@ -63,7 +73,7 @@ function chkpacman {
     if [ "$?" -eq "0" ]; then
         echo -e "   ${g} [-] Installing the Packages${endc}"
         echo ""
-        pacman -S python python-pip python-requests python2 python2-pip gcc ruby php git wget bc curl netcat subversion jre-openjdk make automake gcc linux-headers gzip rsync
+        pacman -S python python-pip python-requests python2 python2-pip gcc ruby php git wget bc curl netcat subversion jre-openjdk make automake gcc linux-headers gzip rsync wget
         gem install bundler:1.17.2
     else
         echo -e "   ${g} [-] Skipping pacman${endc}"
@@ -75,7 +85,7 @@ function chkzypper {
     if [ "$?" -eq "0" ]; then
         echo -e "   ${g} [-] Installing the Packages${endc}"
         echo ""
-        zypper install python python-pip python-requests python2 python2-pip gcc ruby php git wget bc curl netcat subversion jre-openjdk make automake gcc linux-headers gzip rsync
+        zypper install python python-pip python-requests python2 python2-pip gcc ruby php git wget bc curl netcat subversion jre-openjdk make automake gcc linux-headers gzip rsync wget
         gem install bundler:1.17.2
     else
         echo -e "   ${g} [-] Skipping zypper${endc}"
@@ -88,7 +98,7 @@ function chkdnf {
     if [ "$?" -eq "0" ]; then
         echo -e "   ${g} [-] Installing the Packages${endc}"
         echo ""
-        dnf install python python-pip python-requests python2 python2-pip gcc ruby php git wget bc curl netcat subversion jre-openjdk make automake gcc linux-headers gzip rsync
+        dnf install python python-pip python-requests python2 python2-pip gcc ruby php git wget bc curl netcat subversion jre-openjdk make automake gcc linux-headers gzip rsync wget
         gem install bundler:1.17.2
     else
         echo -e "   ${g} [-] Skipping dnf${endc}"
@@ -101,7 +111,7 @@ function chkyum {
     if [ "$?" -eq "0" ]; then
         echo -e "   ${g} [-] Installing the Packages${endc}"
         echo ""
-        yum install python python-pip python-requests python2 python2-pip gcc ruby php git wget bc curl netcat subversion jre-openjdk make automake gcc linux-headers gzip rsync
+        yum install python python-pip python-requests python2 python2-pip gcc ruby php git wget bc curl netcat subversion jre-openjdk make automake gcc linux-headers gzip rsync wget
         gem install bundler:1.17.2
     else
         echo -e "   ${g} [-] Skipping yum${endc}"
@@ -136,11 +146,10 @@ function install {
     export GOROOT=/usr/local/go
     export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
     rm -rf go*
-    # Cleaning
-    rm -rf build dist lockdoor.egg* pictures ToolsResources
-    rm lockdoor README.rst install.sh
     # RUN
-    lockdoor
+    showlogo
+    echo -e "                   ${y}Lockdoor Installed Succesfully !${endc}
+                ${y}Type ${g}lockdoor${endc}${y} in ${r} Terminl${endc}${y} to use it${endc}"
 }
 
 #main
