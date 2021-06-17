@@ -6,15 +6,15 @@
 
 # Lockdoor Pentesting Framework
 
-#### Version v2.3 IS OUT !! <br>
+#### Version v2.3 IS OUT !! 
 
-      - Fixing some CI <br>
+      - Fixing some CI 
 
-      - making a more stable version <br>
+      - making a more stable version 
 
-      - new docker iaage build<br>
+      - new docker iaage build
 
-      - adding packages for each supported distros<br>
+      - adding packages for each supported distros
 
 # Badges 📌 :
 
