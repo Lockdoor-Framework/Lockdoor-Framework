@@ -2,7 +2,7 @@
 
    <h1 align="center">
 
-.. image:: https://sofianehamlaoui.github.io/junk/lockdoor/logos/logo205x250.gif
+.. image:: https://up.sofianehamlaoui.fr/lockdoor/lockdoor_small.png
 
 .. raw:: html
 
@@ -14,7 +14,16 @@
    <h2 align="center">
    !NEWS!</h2>
    <h3 align="center">
-   Version v2.2.4 IS OUT !! <br>
+   Version v2.3 IS OUT !! <br>
+
+      - Fixing some CI <br>
+
+      - making a more stable version <br>
+
+      - new docker iaage build<br>
+
+      - adding packages for each supported distros<br>
+
    </h3>
 
 .. |code-quality| image:: https://api.codacy.com/project/badge/Grade/a5ccede5f91247ab91b14eb97309b74b
@@ -22,6 +31,8 @@
 
 .. |forthebadge made-with-python| image:: http://ForTheBadge.com/images/badges/made-with-python.svg
    :target: https://www.python.org/
+
+.. |commits| image:: https://badges.pufler.dev/contributors/SofianeHamlaoui/Lockdoor-Framework
 
 .. |GitHub release| image:: https://badgen.net/github/release/SofianeHamlaoui/Lockdoor-Framework
    :target: https://GitHub.com/SofianeHamlaoui/Lockdoor-Framework/releases/
@@ -54,6 +65,10 @@ Support me 💰 :
 =============
    - On Paypal : https://www.paypal.com/paypalme2/SofianeHamlaoui
    - BTC Addresse : 1NR2oqsuevvWJwzCyhBXmqEA5eYAaSoJFk
+=============
+Contributors ⭐ :
+=============
+|commits|
 
 =============
 Versions :closed_lock_with_key: :
@@ -167,37 +182,37 @@ Resources and cheatsheets 📙 : (Added value)
 Screenshots 💻 :
 =============
 
-.. |1st| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/installation-dir-1.png
+.. |1st| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/installation-dir-1.png
 
-.. |lockup| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/verbosemode.png
+.. |lockup| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/verbosemode.png
 
-.. |root| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/RootMenu.png
+.. |root| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/RootMenu.png
 
-.. |infogath| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/infogath.png
+.. |infogath| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/infogath.png
 
-.. |web| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/webhack.png
+.. |web| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/webhack.png
 
-.. |expl| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/exploitation.png
+.. |expl| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/exploitation.png
 
-.. |Revers| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/reverseeng.png
+.. |Revers| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/reverseeng.png
 
-.. |Enc| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/encdec.png
+.. |Enc| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/encdec.png
 
-.. |passwd| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/passattack.png
+.. |passwd| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/passattack.png
 
-.. |shells| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/shells.png
+.. |shells| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/shells.png
 
-.. |Privesc| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/privesc.png
+.. |Privesc| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/privesc.png
 
-.. |SE| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/socialengin.png
+.. |SE| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/socialengin.png
 
-.. |psafrt| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/reporttemplates.png
+.. |psafrt| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/reporttemplates.png
 
-.. |help| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/walkth.png
+.. |help| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/walkth.png
 
-.. |update| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/update.png
+.. |update| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/update.png
 
-.. |about| image:: https://up.sofianehamlaoui.me/lockdoor/screenshots/about.png
+.. |about| image:: https://sofianehamlaoui.github.io/junk/lockdoor/screenshots/about.png
 
 +------------+--------------+-----------+-----------------------+-------------+--------------+---------------------+---------+------------------+----------+-----------+--------------------+----------+--------------+-----------------+---------+
 | First Step | Verbose mode | R00T menu | Information Gathering | Web Hacking | Exploitation | Reverse Engineering | Enc/Dec | Password Attacks | Shells   | PrivEsc   | Social Engineering | PSAFRT   | Walkthroughs | Update Lockdoor | About   |
@@ -209,17 +224,17 @@ Screenshots 💻 :
 Demos 💻 :
 ============
 
-.. |Kali| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/kali.gif
+.. |Kali| image:: https://sofianehamlaoui.github.io/junk/lockdoor/gifs/kali.gif
 
-.. |Ubuntu| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/ubuntu.gif
+.. |Ubuntu| image:: https://sofianehamlaoui.github.io/junk/lockdoor/gifs/ubuntu.gif
 
-.. |Arch Linux| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/archlinux.gif
+.. |Arch Linux| image:: https://sofianehamlaoui.github.io/junk/lockdoor/gifs/archlinux.gif
 
-.. |Fedora| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/fedora.gif
+.. |Fedora| image:: https://sofianehamlaoui.github.io/junk/lockdoor/gifs/fedora.gif
 
-.. |Opensuse| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/opensuse.gif
+.. |Opensuse| image:: https://sofianehamlaoui.github.io/junk/lockdoor/gifs/opensuse.gif
 
-.. |Windows1| image:: https://up.sofianehamlaoui.me/lockdoor/gifs/windows.gif
+.. |Windows1| image:: https://sofianehamlaoui.github.io/junk/lockdoor/gifs/windows.gif
 
 +------------+----------+--------------+----------+------------+-------------------+
 | Kali Linux | Ubuntu   | Arch Linux   | Fedora   | Opensuse   | Windows (Cygwin)  |
@@ -287,19 +302,15 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
                                        sudo docker exec -it lockdoor-container bash
 
 - Automatically
+      **Installing it using the script may take some time depends on the packages already installed on your system.**
+            here you can find a fresh installation on a new debian distro with no pre-installed packages : [11min]
+               .. image:: https://i.imgur.com/2yvXOYm.png
 
          .. code-block:: console
 
                    1) Automatically(x2) installation :
 
-                      bash <(wget -qO- https://git.io/JUBlZ)
-
-                   2) Automatically(x1) installation :
-
-                      git clone https://github.com/SofianeHamlaoui/Lockdoor-Framework.git && cd Lockdoor-Framework
-                      chmod +x ./install.sh
-                      ./install.sh
-
+                   git clone https://github.com/SofianeHamlaoui/Lockdoor-Framework.git && cd Lockdoor-Framework && chmod +x ./install.sh && ./install.sh                  
 - Manually
 
    - Installing requirments
