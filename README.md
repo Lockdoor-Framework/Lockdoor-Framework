@@ -2,13 +2,13 @@
 <p align="center">
   <img width="460" height="300" src="https://up.sofianehamlaoui.fr/lockdoor/lockdoor_small.png">
 </p>
+<h1 align="center"> Lockdoor Pentesting Framework</h1>
 
 
-# Lockdoor Pentesting Framework
 
 # Table of contents
 
-- [Lockdoor Pentesting Framework](#lockdoor-pentesting-framework)
+- [Changelog](#changelog--)
 - [Badges 📌 :](#badges--)
 - [Support me 💰 :](#support-me--)
 - [Contributors ⭐ :](#contributors--)
@@ -23,15 +23,16 @@
 - [Lockdoor Resources contents 📚 :](#lockdoor-resources-contents--)
 - [**Contributing** ℹ️ :](#contributing-ℹ%EF%B8%8F-)
 
-#### Version v2.3 IS OUT !! 
+# Changelog 📌  :
+  #### Version v2.3 IS OUT !! 
 
-      - Fixing some CI 
+        - Fixing some CI 
 
-      - making a more stable version 
+        - making a more stable version 
 
-      - new docker iaage build
+        - new docker iaage build
 
-      - adding packages for each supported distros
+        - adding packages for each supported distros
 
 # Badges 📌 :
 ![made-with-python]( http://ForTheBadge.com/images/badges/made-with-python.svg)
