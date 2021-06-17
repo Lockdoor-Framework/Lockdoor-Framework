@@ -17,9 +17,8 @@
       - adding packages for each supported distros
 
 # Badges 📌 :
-
-![Twitter](https://badgen.net/twitter/follow/S0fianeHamlaoui)
 ![made-with-python]( http://ForTheBadge.com/images/badges/made-with-python.svg)
+![Twitter](https://badgen.net/twitter/follow/S0fianeHamlaoui)
 ![GitHub](https://badgen.net/github/release/SofianeHamlaoui/Lockdoor-Framework)
 ![License](https://badgen.net/pypi/license/lockdoor)
 ![TestedON](https://img.shields.io/badge/Tested%20on%20%20-Linux%20%26%20Windows-blue)
@@ -148,99 +147,54 @@ easily.
 
 # Installation 🛠️ :
 
-**The recommended way to use Lockdoor is by pulling the Docker Image so you will not have
+> **The recommended way to use Lockdoor is by pulling the Docker Image so you will not have
 to worry about dependencies issues.**
 
-**A Docker image is available on Docker Hub and automatically re-built at each update:
+> - **A Docker image is available on Docker Hub and automatically re-built at each update:
 https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the official debian docker image (debian).**
 
 - Docker Installation
 
-      - Installing requirments
+  - Installing requirments
+    ```bash
+           sudo apt install docker < Debian-based distributions
+           sudo dnf install docker < RPM-based distributions
+           sudo pacman -S docker < Arch-based distributions
+           sudo zypper install docker < OS-based distributions
+           sudo yum install docker < RH-based distributions
+    ```
+  - Running the container
+    ```bash
+           1. *Pull lockdoor Docker Image:*
+                sudo docker pull sofianehamlaoui/lockdoor
 
-            .. code-block:: console
+    ``` 
+    ```bash
+           2. *Run fresh Docker container:*
+                sudo docker run -it --name lockdoor-container -w /Lockdoor-Framework --net=host sofianehamlaoui/lockdoor
 
-                     sudo apt install docker < Debian-based distributions
-                     sudo dnf install docker < RPM-based distributions
-                     sudo pacman -S docker < Arch-based distributions
-                     sudo zypper install docker < OS-based distributions
-                     sudo yum install docker < RH-based distributions
+    ```   
+    ```bash
+           3. *Run Lockdoor Framework*
+                sudo lockdoor
 
-      - Using lockdoor's docker version
+    ```                        
+    ```bash
+           4. *To re-run a stopped container:*
+                sudo docker start -i sofianehamlaoui/lockdoor
+    ```   
+    ```bash
+           5. *To open multiple shells inside the container:*
+                sudo docker exec -it lockdoor-container bash
+    ``` 
+- Using LockAller - Lockdoor Installer
 
-                  1. *Pull lockdoor Docker Image:*
-
-                              .. code-block:: console
-
-                                       sudo docker pull sofianehamlaoui/lockdoor
-
-                  2. *Run fresh Docker container:*
-
-                              .. code-block:: console
-
-                                       sudo docker run -it --name lockdoor-container -w /Lockdoor-Framework --net=host sofianehamlaoui/lockdoor
-
-                  3. *Run Lockdoor Framework*
-
-                              .. code-block:: console
-
-                                       lockdoor
-
-                  4. *To re-run a stopped container:*
-
-                              .. code-block:: console
-
-                                       sudo docker start -i sofianehamlaoui/lockdoor
-
-
-                  5. *To open multiple shells inside the container:*
-
-                              .. code-block:: console
-
-                                       sudo docker exec -it lockdoor-container bash
-
-- Automatically
-      **Installing it using the script may take some time depends on the packages already installed on your system.**
-            here you can find a fresh installation on a new debian distro with no pre-installed packages : [11min]
-               .. image:: https://i.imgur.com/2yvXOYm.png
-
-         .. code-block:: console
-
-                   1) Automatically(x2) installation :
-
-                   git clone https://github.com/SofianeHamlaoui/Lockdoor-Framework.git && cd Lockdoor-Framework && chmod +x ./install.sh && ./install.sh                  
-- Manually
-
-   - Installing requirments
-
-         .. code-block:: console
-
-               python python-pip python-requests python2 python2-pip gcc ruby php git wget bc curl netcat subversion jre-openjdk make automake gcc linux-headers gzip
-
-   - Installing Go
-
-         .. code-block:: console
-
-               wget https://dl.google.com/go/go1.13.linux-amd64.tar.gz
-               tar -xvf go1.13.linux-amd64.tar.gz
-               mv go /usr/local
-               export GOROOT=/usr/local/go
-               export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
-               rm go1.13.linux-amd64.tar.gz
-
-   - Installing Lockdoor
-
-         .. code-block:: console
-
-                  # Clonnig
-                  git clone https://github.com/SofianeHamlaoui/Lockdoor-Framework.git && cd Lockdoor-Framework
-                  # Create the config file
-                  # INSTALLDIR = where you want to install Lockdoor (Ex : /opt/sofiane/pentest)
-                  echo "Location:"$installdir > $HOME"/.config/lockdoor/lockdoor.conf"
-                  # Moving the resources folder
-                  mv ToolsResources/* INSTALLDIR
-                  # Installing Lockdoor from PyPi
-                  pip3 install lockdoor
+     >  **Installing it using the script may take some time depends on the packages already installed on your system.**
+            > here you can find a fresh installation on a new debian distro with no pre-installed packages : [11min]
+               ![](https://i.imgur.com/2yvXOYm.png)
+    ```bash
+    git clone https://github.com/SofianeHamlaoui/Lockdoor-Framework.git && cd Lockdoor-Framework && chmod +x ./install.sh && ./install.sh 
+    ```   
 
 
 # Lockdoor Tools contents 🛠️ :
@@ -358,25 +312,25 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
 # Lockdoor Resources contents 📚 :
 
 #### **Information Gathering** :mag_right: :
-        -   [Cheatsheet\_SMBEnumeration](ToolsResources/INFO-GATH/CHEATSHEETS/Cheatsheet_SMBEnumeration.txt)
-        -   [configuration\_management](ToolsResources/INFO-GATH/CHEATSHEETS/configuration_management.md)
-        -   [dns\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/dns_enumeration.md)
-        -   [file\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/file_enumeration.md)
-        -   [http\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/http_enumeration.md)
-        -   [information\_gathering\_owasp\_guide](ToolsResources/INFO-GATH/CHEATSHEETS/information_gathering_owasp_guide.md)
-        -   [miniserv\_webmin\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/miniserv_webmin_enumeration.md)
-        -   [ms\_sql\_server\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/ms_sql_server_enumeration.md)
-        -   [nfs\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/nfs_enumeration.md)
-        -   [osint\_recon\_ng](ToolsResources/INFO-GATH/CHEATSHEETS/osint_recon_ng.md)
-        -   [passive\_information\_gathering](ToolsResources/INFO-GATH/CHEATSHEETS/passive_information_gathering.md)
-        -   [pop3\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/pop3_enumeration.md)
-        -   [ports\_emumeration](ToolsResources/INFO-GATH/CHEATSHEETS/ports_emumeration.md)
-        -   [rpc\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/rpc_enumeration.md)
-        -   [scanning](ToolsResources/INFO-GATH/CHEATSHEETS/scanning.md)
-        -   [smb\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/smb_enumeration.md)
-        -   [smtp\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/smtp_enumeration.md)
-        -   [snmb\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/snmb_enumeration.md)
-        -   [vulnerability\_scanning](ToolsResources/INFO-GATH/CHEATSHEETS/vulnerability_scanning.md)
+> - [Cheatsheet\_SMBEnumeration](ToolsResources/INFO-GATH/CHEATSHEETS/Cheatsheet_SMBEnumeration.txt)
+> - [configuration\_management](ToolsResources/INFO-GATH/CHEATSHEETS/configuration_management.md)
+> - [dns\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/dns_enumeration.md)
+> - [file\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/file_enumeration.md)
+> - [http\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/http_enumeration.md)
+> - [information\_gathering\_owasp\_guide](ToolsResources/INFO-GATH/CHEATSHEETS/information_gathering_owasp_guide.md)
+> - [miniserv\_webmin\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/miniserv_webmin_enumeration.md)
+> - [ms\_sql\_server\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/ms_sql_server_enumeration.md)
+> - [nfs\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/nfs_enumeration.md)
+> - [osint\_recon\_ng](ToolsResources/INFO-GATH/CHEATSHEETS/osint_recon_ng.md)
+> - [passive\_information\_gathering](ToolsResources/INFO-GATH/CHEATSHEETS/passive_information_gathering.md)
+> - [pop3\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/pop3_enumeration.md)
+> - [ports\_emumeration](ToolsResources/INFO-GATH/CHEATSHEETS/ports_emumeration.md)
+> - [rpc\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/rpc_enumeration.md)
+> - [scanning](ToolsResources/INFO-GATH/CHEATSHEETS/scanning.md)
+> - [smb\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/smb_enumeration.md)
+> - [smtp\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/smtp_enumeration.md)
+> - [snmb\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/snmb_enumeration.md)
+> - [vulnerability\_scanning](ToolsResources/INFO-GATH/CHEATSHEETS/vulnerability_scanning.md)
 
 #### **Crypto** 🛡️:
 
