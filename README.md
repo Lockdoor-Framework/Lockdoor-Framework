@@ -18,7 +18,7 @@
 - [Features 📙 :](#features--)
 - [Screenshots 💻 :](#screenshots--)
 - [Demos 💻 :](#demos--)
-- [Installation 🛠️ :](#installation--)
+- [Installation 🛠️ :](#installation-%EF%B8%8F-)
 - [Lockdoor Tools contents 🛠️ :](#lockdoor-tools-contents--)
 - [Lockdoor Resources contents 📚 :](#lockdoor-resources-contents--)
 - [**Contributing** ℹ️ :](#contributing-ℹ%EF%B8%8F-)
