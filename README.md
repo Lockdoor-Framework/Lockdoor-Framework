@@ -8,7 +8,7 @@
 
 # Table of contents
 
-- [Changelog](#changelog--)
+- [Changelog](#changelog---)
 - [Badges 📌 :](#badges--)
 - [Support me 💰 :](#support-me--)
 - [Contributors ⭐ :](#contributors--)
