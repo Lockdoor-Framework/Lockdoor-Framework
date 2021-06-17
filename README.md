@@ -8,20 +8,48 @@
 
 # Table of contents
 
-- [Changelog](#changelog---)
+- [Table of contents](#table-of-contents)
+- [Changelog 📌  :](#changelog---)
 - [Badges 📌 :](#badges--)
 - [Support me 💰 :](#support-me--)
 - [Contributors ⭐ :](#contributors--)
 - [Versions](#versions)
+      - [06/2021 : 2.3](#062021--23)
+      - [03/2020 : 2.2.3](#032020--223)
 - [Blogs & Articles 📰 :](#blogs--articles--)
 - [Overview 📙 :](#overview--)
 - [Features 📙 :](#features--)
+  - [Pentesting Tools Selection 📙 :](#pentesting-tools-selection--)
+  - [Resources and cheatsheets 📙 :](#resources-and-cheatsheets--)
 - [Screenshots 💻 :](#screenshots--)
 - [Demos 💻 :](#demos--)
 - [Installation 🛠️ :](#installation-%EF%B8%8F-)
 - [Lockdoor Tools contents 🛠️ :](#lockdoor-tools-contents-%EF%B8%8F-)
+  - [**Information Gathering** :mag_right: :](#information-gathering-mag_right-)
+  - [**Web Hacking** 🌐 :](#web-hacking--)
+  - [**Privilege Escalation** ⚠️ :](#privilege-escalation-%EF%B8%8F-)
+  - [**Reverse Engineering** ⚡:](#reverse-engineering-)
+  - [**Exploitation** ❗:](#exploitation-)
+  - [**Shells** 🐚:](#shells-)
+  - [**Password Attacks** ✳️:](#password-attacks-%EF%B8%8F)
+  - [**Encryption - Decryption** 🛡️:](#encryption---decryption-%EF%B8%8F)
+  - [**Social Engineering** 🎭:](#social-engineering-)
 - [Lockdoor Resources contents 📚 :](#lockdoor-resources-contents--)
-- [**Contributing** ℹ️ :](#contributing-ℹ%EF%B8%8F-)
+  - [**Information Gathering** :mag_right: :](#information-gathering-mag_right-)
+  - [**Crypto** 🛡️:](#crypto-%EF%B8%8F)
+  - [**Exploitation** ❗:](#exploitation-)
+  - [**Networking** 🖧 :](#networking--)
+  - [**Password Attacks** ✳️:](#password-attacks-%EF%B8%8F-1)
+  - [**Post Exploitation** ❗❗:](#post-exploitation-)
+  - [**Privilege Escalation** ⚠️:](#privilege-escalation-%EF%B8%8F)
+  - [**Pentesting & Security Assessment Findings Report Templates** 📝 :](#pentesting--security-assessment-findings-report-templates--)
+  - [**Reverse Engineering** ⚡ :](#reverse-engineering--)
+  - [**Social Engineering** 🎭:](#social-engineering-)
+  - [**Walk Throughs** 🚶 :](#walk-throughs--)
+  - [**Web Hacking** 🌐 :](#web-hacking--)
+  - [**Other** 📚 :](#other--)
+- [**Contributing** :](#contributing-)
+
 
 # Changelog 📌  :
   #### Version v2.3 IS OUT !! 
@@ -133,7 +161,7 @@ easily.
 
 # Features 📙 :
 
-#### Pentesting Tools Selection 📙 :
+## Pentesting Tools Selection 📙 :
 
    - **Tools**: **Lockdoor** doesn't contain all pentesting tools , let's be honest ! Who ever used all the Tools you find on all those Penetration Testing distributions ? Lockdoor contains only the favorite and the most used tools by Pentesters.
 
@@ -145,7 +173,7 @@ easily.
 
    - **Installation**: You can install the tool automatically using the installer.sh , Manually or by running the Docker Image.
 
-#### Resources and cheatsheets 📙 :
+## Resources and cheatsheets 📙 :
 
    - **Resources**: That's what makes **Lockdoor**, Lockdoor Doesn't contain only tools ! Pentesing and Security Assessment Findings Reports templates, Pentesting walkthrough examples and templates and more.
 
@@ -217,7 +245,7 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
 
 # Lockdoor Tools contents 🛠️ :
 
-#### **Information Gathering** :mag_right: :
+## **Information Gathering** :mag_right: :
 
    - Tools:
       - dirsearch : A Web path scanner
@@ -244,7 +272,7 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
       - RED_HAWK : All in one tool for Information Gathering, Vulnerability Scanning and Crawling
       - Dracnmap : Info Gathering Framework
 
-#### **Web Hacking** 🌐 :
+## **Web Hacking** 🌐 :
    - Tools:
       - Spaghetti : Spaghetti - Web Application Security Scanner
       - CMSmap : CMS scanner
@@ -263,7 +291,7 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
    - Frameworks:
       - Dzjecter : Server checking Tool
 
-#### **Privilege Escalation** ⚠️ :
+## **Privilege Escalation** ⚠️ :
    - Tools:
       - Linux  🐧 :
          - Scripts :
@@ -282,7 +310,7 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
          - raptor_udf.c
          - raptor_udf2.c
 
-#### **Reverse Engineering** ⚡:
+## **Reverse Engineering** ⚡:
 
    - Radare2 : unix-like reverse engineering framework
    - VirtusTotal : VirusTotal tools
@@ -296,7 +324,7 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
    - Spike : a protocol fuzzer creation kit + audits
    - other : other scripts collected somewhere
 
-#### **Exploitation** ❗:
+## **Exploitation** ❗:
 
    - Findsploit : Find exploits in local and online databases instantly
    - Pompem : Exploit and Vulnerability Finder
@@ -306,30 +334,30 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
    - linux-exploit-suggester2 : Next-Generation Linux Kernel Exploit Suggester
    - other : other scripts I collected somewhere.
 
-#### **Shells** 🐚:
+## **Shells** 🐚:
 
    - WebShells : BlackArch's Webshells Collection
    - ShellSum : A defense tool - detect web shells in local directories
    - Weevely : Weaponized web shell
    - python-pty-shells : Python PTY backdoors
 
-#### **Password Attacks** ✳️:
+## **Password Attacks** ✳️:
    - crunch : a wordlist generator
    - CeWL : a Custom Word List Generator
    - patator : a multi-purpose brute-forcer, with a modular design and a flexible usage
 
-#### **Encryption - Decryption** 🛡️:
+## **Encryption - Decryption** 🛡️:
 
    - Codetective : a tool to determine the crypto/encoding algorithm used
    - findmyhash : Python script to crack hashes using online services
 
-#### **Social Engineering** 🎭:
+## **Social Engineering** 🎭:
 
    - scythe : an accounts enumerator
 
 # Lockdoor Resources contents 📚 :
 
-#### **Information Gathering** :mag_right: :
+## **Information Gathering** :mag_right: :
 > - [Cheatsheet\_SMBEnumeration](ToolsResources/INFO-GATH/CHEATSHEETS/Cheatsheet_SMBEnumeration.txt)
 > - [configuration\_management](ToolsResources/INFO-GATH/CHEATSHEETS/configuration_management.md)
 > - [dns\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/dns_enumeration.md)
@@ -350,12 +378,12 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
 > - [snmb\_enumeration](ToolsResources/INFO-GATH/CHEATSHEETS/snmb_enumeration.md)
 > - [vulnerability\_scanning](ToolsResources/INFO-GATH/CHEATSHEETS/vulnerability_scanning.md)
 
-#### **Crypto** 🛡️:
+## **Crypto** 🛡️:
 
 
 > -   [Crypto101.pdf](ToolsResources/ENCRYPTION/CHEATSHEETS/Crypto101.pdf)
 
-#### **Exploitation** ❗:
+## **Exploitation** ❗:
 
 > -   [computer\_network\_exploits](ToolsResources/EXPLOITATION/CHEATSHEETS/computer_network_exploits.md)
 > -   [file\_inclusion\_vulnerabilities](ToolsResources/EXPLOITATION/CHEATSHEETS/file_inclusion_vulnerabilities.md)
@@ -369,7 +397,7 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
 >     Exploits](ToolsResources/EXPLOITATION/CHEATSHEETS/Public%20Exploits.md)
 > -   [reverse\_shell\_with\_msfvenom](ToolsResources/EXPLOITATION/CHEATSHEETS/reverse_shell_with_msfvenom.md)
 
-#### **Networking** 🖧 :
+## **Networking** 🖧 :
 
 > -   [bpf\_syntax](ToolsResources/NETWORKING/bpf_syntax.md)
 > -   [Cheatsheet\_Networking](ToolsResources/NETWORKING/Cheatsheet_Networking.txt)
@@ -378,27 +406,26 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
 > -   [nmap\_quick\_reference\_guide](ToolsResources/NETWORKING/nmap_quick_reference_guide.pdf)
 > -   [tcpdump](ToolsResources/NETWORKING/tcpdump.pdf)
 
-#### **Password Attacks** ✳️:
+## **Password Attacks** ✳️:
 
 > -   [password\_attacks](ToolsResources/PASSWORD/CHEATSHEETS/password_attacks.md)
 > -   [Some-Links-To-Wordlists](ToolsResources/PASSWORD/CHEATSHEETS/Some-Links-To-Wordlists.txt)
 
-#### **Post Exploitation** ❗❗:
+## **Post Exploitation** ❗❗:
 
 > -   [Cheatsheet\_AVBypass](ToolsResources/POST-EXPL/CHEATSHEETS/Cheatsheet_AVBypass.txt)
 > -   [Cheatsheet\_BuildReviews](ToolsResources/POST-EXPL/CHEATSHEETS/Cheatsheet_BuildReviews.txt)
 > -   [code-execution-reverse-shell-commands](ToolsResources/POST-EXPL/CHEATSHEETS/code-execution-reverse-shell-commands.txt)
 
-#### **Privilege Escalation** ⚠️:  
+## **Privilege Escalation** ⚠️:  
 > - [Cheatsheet\_LinuxPrivilegeEsc](ToolsResources/PrivEsc/CHEATSHEETS/Cheatsheet_LinuxPrivilegeEsc.txt)
 > - [linux\_enumeration](ToolsResources/PrivEsc/CHEATSHEETS/linux_enumeration.md)
 > - [windows\_enumeration](ToolsResources/PrivEsc/CHEATSHEETS/windows_enumeration.md)
 > - [windows\_priv\_escalation](ToolsResources/PrivEsc/CHEATSHEETS/windows_priv_escalation.md)
 > - [windows\_priv\_escalation\_practical](ToolsResources/PrivEsc/CHEATSHEETS/windows_priv_escalation_practical.md)
 
-#### **Pentesting & Security Assessment Findings Report Templates** 📝 :
+## **Pentesting & Security Assessment Findings Report Templates** 📝 :
 > - [Demo Company - Security Assessment Findings Report.docx](ToolsResources/REPORT/TEMPLATES/Demo-Company-Security-Asses-Findings-Report.docx)
-
 > - [linux-template.md](ToolsResources/REPORT/TEMPLATES/linux-template.md)
 > - [PWKv1-REPORT.doc](ToolsResources/REPORT/TEMPLATES/PWKv1-REPORT.doc)
 > - [pwkv1\_report.doc](ToolsResources/REPORT/TEMPLATES/pwkv1_report.doc)
@@ -411,7 +438,7 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
 
 
 
-#### **Reverse Engineering** ⚡ : 
+## **Reverse Engineering** ⚡ : 
 > - [Buffer\_Overflow\_Exploit](ToolsResources/REVERSE/CHEATSHEETS/Buffer_Overflow_Exploit.md)
 > - [buffer\_overflows](ToolsResources/REVERSE/CHEATSHEETS/buffer_overflows.md)
 > - [gdb\_cheat\_sheet](ToolsResources/REVERSE/CHEATSHEETS/gdb_cheat_sheet.pdf)
@@ -425,17 +452,17 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
 > - [x86\_assembly\_x86\_architecture](ToolsResources/REVERSE/CHEATSHEETS/assembly/x86_assembly_x86_architecture.pdf)
 > - [x86\_opcode\_structure\_and\_instruction\_overview](ToolsResources/REVERSE/CHEATSHEETS/assembly/x86_opcode_structure_and_instruction_overview.png)
 
-#### **Social Engineering** 🎭:
+## **Social Engineering** 🎭:
 
 > -   [social\_engineering](ToolsResources/SOCIAL_ENGINEERING/CHEATSHEETS/social_engineering.md)
 
-#### **Walk Throughs** 🚶 :
+## **Walk Throughs** 🚶 :
 
 > -   [Cheatsheet\_PenTesting.txt](ToolsResources/WALK/Cheatsheet_PenTesting.txt)
 > -   [OWASP Testing Guide v4](ToolsResources/WALK/OTGv4.pdf)
 > -   [OWASPv4\_Checklist.xlsx](ToolsResources/WALK/OWASPv4_Checklist.xlsx)
 
-#### **Web Hacking** 🌐 :
+## **Web Hacking** 🌐 :
 
 > -   [auxiliary\_info.md](ToolsResources/WEB/CHEATSHEETS/auxiliary_info.md)
 > -   [Cheatsheet\_ApacheSSL](ToolsResources/WEB/CHEATSHEETS/Cheatsheet_ApacheSSL.txt)
@@ -458,7 +485,7 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
 > -   [xss\_actionscript](ToolsResources/WEB/CHEATSHEETS/xss_actionscript)
 > -   [xxe](ToolsResources/WEB/CHEATSHEETS/xxe.md)
 
-#### **Other** 📚 :
+## **Other** 📚 :
 
 > - [Best collection Ever](https://collection.sofianehamlaoui.fr)  
 >
@@ -466,8 +493,8 @@ https://hub.docker.com/r/sofianehamlaoui/lockdoor. It is initially based on the 
 > -   [Google Hacking DataBase](ToolsResources/GHDB.pdf)
 > -   [Google Fu](ToolsResources/GoogleFu.pdf)
 
-**Contributing** ℹ️ :
------------------------
+# **Contributing** :
+
    0. Read [Contributing](https://github.com/SofianeHamlaoui/Lockdoor-Framework/blob/master/docs/CONTRIBUTING.md), [The Code of Conduct](https://github.com/SofianeHamlaoui/Lockdoor-Framework/blob/master/docs/CODE_OF_CONDUCT.md) and [The pull request template](https://github.com/SofianeHamlaoui/Lockdoor-Framework/blob/master/docs/pull_request_template.md)
    1. Fork it (https://github.com/SofianeHamlaoui/Lockdoor-Framework/fork)
    2. Create your feature branch
