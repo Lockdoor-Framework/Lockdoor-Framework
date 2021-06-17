@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="460" height="300" src="https://up.sofianehamlaoui.fr/lockdoor/lockdoor_small.png">
+  <img src="https://up.sofianehamlaoui.fr/lockdoor/lockdoor_small.png">
 </p>
 <h1 align="center"> Lockdoor Pentesting Framework</h1>
 
