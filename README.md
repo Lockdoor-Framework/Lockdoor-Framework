@@ -21,7 +21,7 @@
 - [Installation 🛠️ :](#installation--)
 - [Lockdoor Tools contents 🛠️ :](#lockdoor-tools-contents--)
 - [Lockdoor Resources contents 📚 :](#lockdoor-resources-contents--)
-- [**Contributing** ℹ️ :](#contributing--)
+- [**Contributing** ℹ️ :](#contributing-ℹ%EF%B8%8F-)
 
 #### Version v2.3 IS OUT !! 
 
