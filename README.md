@@ -19,7 +19,7 @@
 - [Screenshots 💻 :](#screenshots--)
 - [Demos 💻 :](#demos--)
 - [Installation 🛠️ :](#installation-%EF%B8%8F-)
-- [Lockdoor Tools contents 🛠️ :](#lockdoor-tools-contents--)
+- [Lockdoor Tools contents 🛠️ :](#lockdoor-tools-contents-%EF%B8%8F-)
 - [Lockdoor Resources contents 📚 :](#lockdoor-resources-contents--)
 - [**Contributing** ℹ️ :](#contributing-ℹ%EF%B8%8F-)
 
